@@ -1,0 +1,394 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Stores"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNutrients"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GeoLocation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vegetables"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bakery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Beer_&amp;_Wine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Literal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NutritionFacts"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNutrientValue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPrice"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLocation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasItems"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fruits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dairy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Proteins"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Target"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLattitude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Meat_&amp;_Seafood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grocery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FoodCity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fats"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLongitude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Deli"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Carbohydrates"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasName"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasItemCode"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGrocery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Item"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Calories"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasWeight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Walmart"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Bakery"/>
+        <Class IRI="#Grocery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bakery"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasItems"/>
+            <Class IRI="#Item"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Calories"/>
+        <Class IRI="#NutritionFacts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Calories"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasNutrientValue"/>
+            <Class IRI="#Literal"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carbohydrates"/>
+        <Class IRI="#NutritionFacts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carbohydrates"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasNutrientValue"/>
+            <Class IRI="#Literal"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dairy"/>
+        <Class IRI="#Grocery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dairy"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasItems"/>
+            <Class IRI="#Item"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Deli"/>
+        <Class IRI="#Grocery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Deli"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasItems"/>
+            <Class IRI="#Item"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fats"/>
+        <Class IRI="#NutritionFacts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fats"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasNutrientValue"/>
+            <Class IRI="#Literal"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FoodCity"/>
+        <Class IRI="#Stores"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FoodCity"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasLocation"/>
+            <Class IRI="#GeoLocation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fruits"/>
+        <Class IRI="#Grocery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fruits"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasItems"/>
+            <Class IRI="#Item"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeoLocation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasLattitude"/>
+            <Class IRI="#Literal"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeoLocation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasLongitude"/>
+            <Class IRI="#Literal"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Item"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasItemCode"/>
+            <Class IRI="#Literal"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Item"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasName"/>
+            <Class IRI="#Literal"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Item"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasNutrients"/>
+            <Class IRI="#NutritionFacts"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Item"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPrice"/>
+            <Class IRI="#Literal"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Item"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasWeight"/>
+            <Class IRI="#Literal"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Proteins"/>
+        <Class IRI="#NutritionFacts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Proteins"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasNutrientValue"/>
+            <Class IRI="#Literal"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stores"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasGrocery"/>
+            <Class IRI="#Grocery"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Target"/>
+        <Class IRI="#Stores"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Target"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasLocation"/>
+            <Class IRI="#GeoLocation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vegetables"/>
+        <Class IRI="#Grocery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vegetables"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasItems"/>
+            <Class IRI="#Item"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Walmart"/>
+        <Class IRI="#Stores"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Walmart"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasLocation"/>
+            <Class IRI="#GeoLocation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beer_&amp;_Wine"/>
+        <Class IRI="#Grocery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beer_&amp;_Wine"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasItems"/>
+            <Class IRI="#Item"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Meat_&amp;_Seafood"/>
+        <Class IRI="#Grocery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Meat_&amp;_Seafood"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasItems"/>
+            <Class IRI="#Item"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Bakery"/>
+        <Class IRI="#Dairy"/>
+        <Class IRI="#Deli"/>
+        <Class IRI="#Fruits"/>
+        <Class IRI="#Vegetables"/>
+        <Class IRI="#Beer_&amp;_Wine"/>
+        <Class IRI="#Meat_&amp;_Seafood"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Calories"/>
+        <Class IRI="#Carbohydrates"/>
+        <Class IRI="#Fats"/>
+        <Class IRI="#Proteins"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FoodCity"/>
+        <Class IRI="#Target"/>
+        <Class IRI="#Walmart"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#GeoLocation"/>
+        <Class IRI="#Grocery"/>
+        <Class IRI="#Item"/>
+        <Class IRI="#Literal"/>
+        <Class IRI="#NutritionFacts"/>
+        <Class IRI="#Stores"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasGrocery"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasItemCode"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasItems"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasLattitude"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasLocation"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasLongitude"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasName"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasNutrientValue"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasNutrients"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPrice"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasWeight"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
