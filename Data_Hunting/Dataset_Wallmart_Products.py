@@ -6,7 +6,7 @@ import sys;
 reload(sys);
 sys.setdefaultencoding("utf8")
 
-for i in range(0,5):
+for i in range(0,6):
 	if i == 0:
 		csv_title = 'Walmart_frozenfruits.csv'
 		url = 'http://api.walmartlabs.com/v1/paginated/items?format=json&category='
@@ -27,6 +27,10 @@ for i in range(0,5):
 		csv_title = 'Walmart_alcohol.csv'
 		url = 'http://api.walmartlabs.com/v1/paginated/items?format=json&category='
 		product_key = '4044_90548_104900'
+	elif i == 5: 
+		csv_title = 'Walmart_meat.csv'
+		url = 'http://api.walmartlabs.com/v1/paginated/items?format=json&category='
+		product_key = '976759_1071964_976796'
 	
 	csv_File = open('Wallmart_Products_CSVs/' + csv_title, 'w')
 	csvwriter = csv.writer(csv_File)
