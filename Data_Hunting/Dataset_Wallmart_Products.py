@@ -8,29 +8,29 @@ sys.setdefaultencoding("utf8")
 
 for i in range(0,6):
 	if i == 0:
+		product_key = '976759_976791_1001413'
 		csv_title = 'Walmart_frozenfruits.csv'
 		url = 'http://api.walmartlabs.com/v1/paginated/items?format=json&category='
-		product_key = '976759_976791_1001413'
 	elif i == 1:
-		csv_title = 'Walmart_frozenveg.csv'
-		url = 'http://api.walmartlabs.com/v1/paginated/items?format=json&category='
 		product_key = '976759_976791_1001424'
+		csv_title = 'Walmart_frozenveg.csv'
+		url = 'http://api.walmartlabs.com/v1/paginated/items?format=json&category='	
 	elif i == 2:
+		product_key = '976759_1071964_976779'
 		csv_title = 'Walmart_Bakery.csv'
 		url = 'http://api.walmartlabs.com/v1/paginated/items?format=json&category=' 
-		product_key = '976759_1071964_976779'
 	elif i == 3:
+		product_key = '976759_1071964_976788'
 		csv_title = 'Walmart_Dairy.csv'
 		url = 'http://api.walmartlabs.com/v1/paginated/items?format=json&category='
-		product_key = '976759_1071964_976788'
 	elif i == 4: 
+		product_key = '4044_90548_104900'
 		csv_title = 'Walmart_alcohol.csv'
 		url = 'http://api.walmartlabs.com/v1/paginated/items?format=json&category='
-		product_key = '4044_90548_104900'
 	elif i == 5: 
+		product_key = '976759_1071964_976796'
 		csv_title = 'Walmart_meat.csv'
 		url = 'http://api.walmartlabs.com/v1/paginated/items?format=json&category='
-		product_key = '976759_1071964_976796'
 	
 	csv_File = open('Wallmart_Products_CSVs/' + csv_title, 'w')
 	csvwriter = csv.writer(csv_File)
