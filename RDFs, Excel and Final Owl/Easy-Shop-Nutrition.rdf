@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:easyshop="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Nutrients"/>
+	<hasType xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">Apples</hasType>
+	<hasProteins xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">0.18 g</hasProteins>
+	<hasCalories xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">14.84 g</hasCalories>
+	<hasFats xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">0.43 g</hasFats>
+	<hasCarbohydrates xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">16.84 g</hasCarbohydrates>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/1">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Nutrients"/>
+	<hasType xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">Bacon</hasType>
+	<hasProteins xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">13.33 g</hasProteins>
+	<hasCalories xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">0.0 g</hasCalories>
+	<hasFats xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">20.0 g</hasFats>
+	<hasCarbohydrates xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">4.8 g</hasCarbohydrates>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/2">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Nutrients"/>
+	<hasType xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">Bagels</hasType>
+	<hasProteins xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">9.9 g</hasProteins>
+	<hasCalories xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">8.66 g</hasCalories>
+	<hasFats xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">1.24 g</hasFats>
+	<hasCarbohydrates xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">47.47 g</hasCarbohydrates>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/3">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Nutrients"/>
+	<hasType xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">Banana</hasType>
+	<hasProteins xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">1.09 g</hasProteins>
+	<hasCalories xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">12.23 g</hasCalories>
+	<hasFats xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">0.33 g</hasFats>
+	<hasCarbohydrates xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">22.84 g</hasCarbohydrates>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/4">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Nutrients"/>
+	<hasType xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">Beans</hasType>
+	<hasProteins xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">1.89 g</hasProteins>
+	<hasCalories xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">3.63 g</hasCalories>
+	<hasFats xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">0.28 g</hasFats>
+	<hasCarbohydrates xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">7.88 g</hasCarbohydrates>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/5">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Nutrients"/>
+	<hasType xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">Beef</hasType>
+	<hasProteins xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">31.1 g</hasProteins>
+	<hasCalories xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">2.7 g</hasCalories>
+	<hasFats xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">1.94 g</hasFats>
+	<hasCarbohydrates xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">2.76 g</hasCarbohydrates>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/6">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Nutrients"/>
+	<hasType xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">Berry</hasType>
+	<hasProteins xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">1.31 g</hasProteins>
+	<hasCalories xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">19.7 g</hasCalories>
+	<hasFats xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">0.14 g</hasFats>
+	<hasCarbohydrates xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">23.1 g</hasCarbohydrates>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/7">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Nutrients"/>
+	<hasType xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">Bread</hasType>
+	<hasProteins xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">9.5 g</hasProteins>
+	<hasCalories xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">1.78 g</hasCalories>
+	<hasFats xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">6.0 g</hasFats>
+	<hasCarbohydrates xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">47.8 g</hasCarbohydrates>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/8">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Nutrients"/>
+	<hasType xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">Brownies</hasType>
+	<hasProteins xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">4.8 g</hasProteins>
+	<hasCalories xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">36.61 g</hasCalories>
+	<hasFats xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">16.3 g</hasFats>
+	<hasCarbohydrates xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">63.9 g</hasCarbohydrates>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/9">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Nutrients"/>
+	<hasType xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">Butter</hasType>
+	<hasProteins xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">0.49 g</hasProteins>
+	<hasCalories xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">0.06 g</hasCalories>
+	<hasFats xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">78.3 g</hasFats>
+	<hasCarbohydrates xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">2.87 g</hasCarbohydrates>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/10">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Nutrients"/>
+	<hasType xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">Cabbage</hasType>
+	<hasProteins xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">1.28 g</hasProteins>
+	<hasCalories xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">3.2 g</hasCalories>
+	<hasFats xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">0.1 g</hasFats>
+	<hasCarbohydrates xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">5.8 g</hasCarbohydrates>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/11">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Nutrients"/>
+	<hasType xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">Cake</hasType>
+	<hasProteins xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">6.4 g</hasProteins>
+	<hasCalories xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">61.33 g</hasCalories>
+	<hasFats xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">0.27 g</hasFats>
+	<hasCarbohydrates xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">86.13 g</hasCarbohydrates>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/12">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Nutrients"/>
+	<hasType xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">Carrot</hasType>
+	<hasProteins xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">0.93 g</hasProteins>
+	<hasCalories xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">4.74 g</hasCalories>
+	<hasFats xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">0.24 g</hasFats>
+	<hasCarbohydrates xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">9.58 g</hasCarbohydrates>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/13">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Nutrients"/>
+	<hasType xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">Cheese</hasType>
+	<hasProteins xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">16.7 g</hasProteins>
+	<hasCalories xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">7.74 g</hasCalories>
+	<hasFats xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">14.0 g</hasFats>
+	<hasCarbohydrates xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">11.6 g</hasCarbohydrates>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/14">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Nutrients"/>
+	<hasType xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">Chicken</hasType>
+	<hasProteins xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">17.4 g</hasProteins>
+	<hasCalories xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">0.75 g</hasCalories>
+	<hasFats xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">1.86 g</hasFats>
+	<hasCarbohydrates xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">2.92 g</hasCarbohydrates>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/15">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Nutrients"/>
+	<hasType xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">Cookies</hasType>
+	<hasProteins xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">6.1 g</hasProteins>
+	<hasCalories xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">20.24 g</hasCalories>
+	<hasFats xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">18.8 g</hasFats>
+	<hasCarbohydrates xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">68.9 g</hasCarbohydrates>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/16">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Nutrients"/>
+	<hasType xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">Crab</hasType>
+	<hasProteins xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">15.42 g</hasProteins>
+	<hasCalories xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">0.0 g</hasCalories>
+	<hasFats xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">18.09 g</hasFats>
+	<hasCarbohydrates xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">1.56 g</hasCarbohydrates>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/17">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Nutrients"/>
+	<hasType xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">Cream</hasType>
+	<hasProteins xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">3.13 g</hasProteins>
+	<hasCalories xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">4.13 g</hasCalories>
+	<hasFats xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">10.39 g</hasFats>
+	<hasCarbohydrates xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">4.73 g</hasCarbohydrates>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/18">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Nutrients"/>
+	<hasType xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">Croutons</hasType>
+	<hasProteins xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">6.1 g</hasProteins>
+	<hasCalories xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">30.51 g</hasCalories>
+	<hasFats xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">0.3 g</hasFats>
+	<hasCarbohydrates xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">58.7 g</hasCarbohydrates>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/19">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Nutrients"/>
+	<hasType xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">Cupcakes</hasType>
+	<hasProteins xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">3.48 g</hasProteins>
+	<hasCalories xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">39.96 g</hasCalories>
+	<hasFats xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">20.05 g</hasFats>
+	<hasCarbohydrates xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">52.84 g</hasCarbohydrates>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/20">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Nutrients"/>
+	<hasType xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">Donuts</hasType>
+	<hasProteins xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">4.5 g</hasProteins>
+	<hasCalories xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">31.92 g</hasCalories>
+	<hasFats xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">19.9 g</hasFats>
+	<hasCarbohydrates xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">57.4 g</hasCarbohydrates>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/21">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Nutrients"/>
+	<hasType xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">Eggs</hasType>
+	<hasProteins xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">13.61 g</hasProteins>
+	<hasCalories xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">0.4 g</hasCalories>
+	<hasFats xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">14.84 g</hasFats>
+	<hasCarbohydrates xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">0.83 g</hasCarbohydrates>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/22">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Nutrients"/>
+	<hasType xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">Fish</hasType>
+	<hasProteins xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">13.5 g</hasProteins>
+	<hasCalories xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">4.0 g</hasCalories>
+	<hasFats xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">3.0 g</hasFats>
+	<hasCarbohydrates xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">7.7 g</hasCarbohydrates>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/23">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Nutrients"/>
+	<hasType xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">Frozen</hasType>
+	<hasProteins xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">0.18 g</hasProteins>
+	<hasCalories xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">14.84 g</hasCalories>
+	<hasFats xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">0.43 g</hasFats>
+	<hasCarbohydrates xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">16.84 g</hasCarbohydrates>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/24">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Nutrients"/>
+	<hasType xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">Grapes</hasType>
+	<hasProteins xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">0.63 g</hasProteins>
+	<hasCalories xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">16.25 g</hasCalories>
+	<hasFats xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">0.35 g</hasFats>
+	<hasCarbohydrates xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">17.15 g</hasCarbohydrates>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/25">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Nutrients"/>
+	<hasType xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">Lamb</hasType>
+	<hasProteins xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">17.3 g</hasProteins>
+	<hasCalories xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">4.61 g</hasCalories>
+	<hasFats xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">6.37 g</hasFats>
+	<hasCarbohydrates xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">4.53 g</hasCarbohydrates>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/26">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Nutrients"/>
+	<hasType xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">Milk</hasType>
+	<hasProteins xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">3.15 g</hasProteins>
+	<hasCalories xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">5.05 g</hasCalories>
+	<hasFats xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">3.25 g</hasFats>
+	<hasCarbohydrates xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">4.8 g</hasCarbohydrates>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/27">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Nutrients"/>
+	<hasType xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">Muffins</hasType>
+	<hasProteins xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">9.1 g</hasProteins>
+	<hasCalories xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">0.81 g</hasCalories>
+	<hasFats xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">1.8 g</hasFats>
+	<hasCarbohydrates xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">46.3 g</hasCarbohydrates>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/28">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Nutrients"/>
+	<hasType xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">Mushroom</hasType>
+	<hasProteins xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">1.49 g</hasProteins>
+	<hasCalories xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">1.16 g</hasCalories>
+	<hasFats xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">0.53 g</hasFats>
+	<hasCarbohydrates xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">6.86 g</hasCarbohydrates>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/29">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Nutrients"/>
+	<hasType xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">Onion</hasType>
+	<hasProteins xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">1.1 g</hasProteins>
+	<hasCalories xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">4.24 g</hasCalories>
+	<hasFats xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">0.1 g</hasFats>
+	<hasCarbohydrates xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">9.34 g</hasCarbohydrates>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/30">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Nutrients"/>
+	<hasType xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">Oranges</hasType>
+	<hasProteins xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">0.94 g</hasProteins>
+	<hasCalories xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">9.35 g</hasCalories>
+	<hasFats xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">0.12 g</hasFats>
+	<hasCarbohydrates xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">11.75 g</hasCarbohydrates>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/31">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Nutrients"/>
+	<hasType xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">Peas</hasType>
+	<hasProteins xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">5.42 g</hasProteins>
+	<hasCalories xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">5.67 g</hasCalories>
+	<hasFats xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">0.4 g</hasFats>
+	<hasCarbohydrates xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">14.45 g</hasCarbohydrates>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/32">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Nutrients"/>
+	<hasType xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">Pie</hasType>
+	<hasProteins xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">6.4 g</hasProteins>
+	<hasCalories xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">0.17 g</hasCalories>
+	<hasFats xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">34.6 g</hasFats>
+	<hasCarbohydrates xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">47.5 g</hasCarbohydrates>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/33">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Nutrients"/>
+	<hasType xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">Pork</hasType>
+	<hasProteins xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">8.0 g</hasProteins>
+	<hasCalories xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">0.0 g</hasCalories>
+	<hasFats xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">2.5 g</hasFats>
+	<hasCarbohydrates xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">11.54 g</hasCarbohydrates>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/34">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Nutrients"/>
+	<hasType xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">Potato</hasType>
+	<hasProteins xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">2.3 g</hasProteins>
+	<hasCalories xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">1.43 g</hasCalories>
+	<hasFats xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">0.15 g</hasFats>
+	<hasCarbohydrates xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">19.59 g</hasCarbohydrates>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/35">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Nutrients"/>
+	<hasType xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">Shrimp</hasType>
+	<hasProteins xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">21.8 g</hasProteins>
+	<hasCalories xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">0.0 g</hasCalories>
+	<hasFats xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">26.4 g</hasFats>
+	<hasCarbohydrates xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">6.4 g</hasCarbohydrates>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/36">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Nutrients"/>
+	<hasType xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">Tacos</hasType>
+	<hasProteins xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">6.47 g</hasProteins>
+	<hasCalories xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">4.91 g</hasCalories>
+	<hasFats xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">9.7 g</hasFats>
+	<hasCarbohydrates xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">42.98 g</hasCarbohydrates>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/37">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Nutrients"/>
+	<hasType xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">Tomato</hasType>
+	<hasProteins xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">0.88 g</hasProteins>
+	<hasCalories xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">2.63 g</hasCalories>
+	<hasFats xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">0.2 g</hasFats>
+	<hasCarbohydrates xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">3.89 g</hasCarbohydrates>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/38">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Nutrients"/>
+	<hasType xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">Tortillas</hasType>
+	<hasProteins xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">8.01 g</hasProteins>
+	<hasCalories xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">2.66 g</hasCalories>
+	<hasFats xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">7.58 g</hasFats>
+	<hasCarbohydrates xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">49.27 g</hasCarbohydrates>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/39">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Nutrients"/>
+	<hasType xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">Turkey</hasType>
+	<hasProteins xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">15.42 g</hasProteins>
+	<hasCalories xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">0.0 g</hasCalories>
+	<hasFats xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">18.09 g</hasFats>
+	<hasCarbohydrates xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">1.56 g</hasCarbohydrates>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/40">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Nutrients"/>
+	<hasType xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">Yogurt</hasType>
+	<hasProteins xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">9.95 g</hasProteins>
+	<hasCalories xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">3.56 g</hasCalories>
+	<hasFats xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">1.92 g</hasFats>
+	<hasCarbohydrates xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">3.94 g</hasCarbohydrates>
+</rdf:Description>
+
+</rdf:RDF>

@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:easyshop="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/0">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">SafewayStore1</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.4088243</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.9251506</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">926 E. Broadway Rd.Â Tempe, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85281.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/1">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">SafewayStore2</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.41657</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.8731812</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">1960 W. Main St, Mesa, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85201.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/2">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">SafewayStore3</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.4789413</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.92421</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">2785 North Scottsdale Road, Scottsdale, AZÂ </hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85257.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/3">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">SafewayStore4</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.3649615</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.9298375</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">750 E. Guadalupe, Tempe, AZÂ </hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85283.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/4">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">SafewayStore5</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.377465</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.8760804</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">1951 W Baseline, Mesa, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85202.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/5">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">SafewayStore6</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.3483519</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.9137063</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">1515 E. Elliot Rd., Tempe, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85284.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/6">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">SafewayStore7</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.4958809</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.9792792</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">4750 E. Indian School Rd., Phoenix, AZÂ </hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85018.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/7">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">SafewayStore8</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.3631631</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.8603404</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">1225 W. Guadalupe, Mesa, AZÂ </hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85202.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/8">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">SafewayStore9</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.5106875</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.910322</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">7920 E. Chaparral, Scottsdale, AZÂ </hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85250.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/9">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">SafewayStore10</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.3479088</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.9821959</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">4747 E. Elliot Rd, Phoenix, AZÂ </hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85044.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/10">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">SafewayStore11</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.3911603</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-112.0492891</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">6202 S. 16Th St., Phoenix, AZÂ </hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85042.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/11">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">SafewayStore12</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.3218242</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.9128419</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">4060 W. Ray Road, Chandler, AZÂ </hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85226.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/12">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">SafewayStore13</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.5112527</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-112.0146257</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">3132 E. Camelback Rd, Phoenix, AZÂ </hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85016.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/13">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">SafewayStore14</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.5375263</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.9061934</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">6965 N Hayden Road, Scottsdale, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85250.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/14">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">SafewayStore15</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.4662151</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-112.0674775</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">340 E. Mcdowell, Phoenix, AZÂ </hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85004.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/15">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">SafewayStore16</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.3038738</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.8631348</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">1159 W. Chandler Blvd, Chandler, AZÂ </hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85224.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/16">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">SafewayStore17</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.424119</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.7720784</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">2740 E. University Dr., Mesa, AZÂ </hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85213.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/17">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">SafewayStore18</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.3031927</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.996199</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">4005 E. Chandler Blvd, Phoenix, AZÂ </hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85048.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/18">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">SafewayStore19</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.3220851</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.8225311</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">1060 E. Ray Rd, Chandler, AZÂ </hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85225.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/19">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">SafewayStore20</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.4884634</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-112.0820947</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">520 W. Osborn Rd., Phoenix, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85013.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/20">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Tempe Walmart</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.414323</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.929432</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">671 E Apache Blvd, Tempe, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85281.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/21">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Tempe Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.39392</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.92791</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">800 E Southern Ave, Tempe, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85282.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/22">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Mesa Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.431942</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.865295</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">857 N Dobson Rd, Mesa, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85201.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/23">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Phoenix Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.478722</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-112.000982</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">3721 E Thomas Rd, Phoenix, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85018.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/24">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Tempe Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.35103</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.960968</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">1380 W Elliot Rd, Tempe, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85284.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/25">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Phoenix Walmart Neighborhood Market</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.376046</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-112.029277</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">2435 E Baseline Rd, Phoenix, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85042.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/26">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Scottsdale Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.507771</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.889315</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">4915 N Pima Rd, Scottsdale, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85251.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/27">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Mesa Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.380761</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.83672</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">240 W Baseline Rd, Mesa, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85210.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/28">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Mesa Walmart Neighborhood Market</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.452481</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.81464</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">730 E Mckellips Rd, Mesa, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85203.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/29">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Chandler Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.337731</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.854681</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">800 W Warner Rd, Chandler, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85225.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/30">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Chandler Walmart</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.3078755</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.9016321</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">3460 W. Chandler Boulevard, Chandler, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85226.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/31">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Chandler Walmart Neighborhood Market</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.303752</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.947348</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">6085 W Chandler Blvd, Chandler, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85226.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/32">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Mesa Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.380445</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.802765</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">1955 S Stapley Dr, Mesa, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85204.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/33">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Mesa Walmart Neighborhood Market</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.449316</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.772239</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">2725 E Mckellips Rd, Mesa, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85213.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/34">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Mesa Walmart Neighborhood Market</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.38032</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.772934</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">1916 S Lindsay Rd, Mesa, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85204.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/35">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Phoenix Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.521957</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-112.092708</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">1607 W Bethany Home Rd, Phoenix, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85015.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/36">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Chandler Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.289278</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.838011</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">1175 S Arizona Ave, Chandler, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85286.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/37">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Chandler Walmart Neighborhood Market</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.30784</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.808474</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">1900 E Chandler Blvd, Chandler, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85225.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/38">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Phoenix Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.39053</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-112.136887</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">6150 S 35Th Ave, Phoenix, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85041.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/39">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Mesa Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.384526</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.739644</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">1710 S Greenfield Rd, Mesa, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85206.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/40">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Phoenix Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.596146</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.978633</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">4747 E Cactus Rd, Phoenix, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85032.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/41">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Mesa Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.449105</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.733671</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">4505 E Mckellips Rd, Mesa, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85215.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/42">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Phoenix Walmart Neighborhood Market</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.566489</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-112.072193</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">115 E Dunlap Ave, Phoenix, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85020.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/43">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Mesa Walmart Neighborhood Market</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.424031</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.72059</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">5122 E University Dr, Mesa, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85205.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/44">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Chandler Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.281575</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.793378</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">2750 E Germann Rd, Chandler, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85286.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/45">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Phoenix Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.526877</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-112.132538</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">6145 N 35Th Ave, Phoenix, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85017.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/46">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Scottsdale Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.624679</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.893377</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">15355 N Northsight Blvd, Scottsdale, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85260.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/47">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Mesa Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.391531</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.699115</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">6131 E Southern Ave, Mesa, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85206.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/48">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Gilbert Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.304999</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.741012</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">2501 S Market St, Gilbert, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85295.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/49">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Phoenix Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.4968</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-112.1726</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">5250 W Indian School Rd, Phoenix, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85031.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/50">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Phoenix Walmart</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.5735</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-112.1212</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">9600 N Metro Pkwy W, Phoenix, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85051.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/51">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Phoenix Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.63843</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.981841</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">4617 E Bell Rd, Phoenix, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85032.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/52">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Gilbert Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.319619</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.689643</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">5290 S Power Rd, Gilbert, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85295.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/53">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Glendale Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.551186</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-112.179904</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">5605 W Northern Ave, Glendale, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85301.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/54">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Phoenix Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.4204018</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-112.2231893</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">7575 W Lower Buckeye Rd, Phoenix, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85043.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/55">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Glendale Walmart Neighborhood Market</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.5647729</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-112.1700005</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">5137 W Olive Ave, Glendale, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85302.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/56">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Phoenix Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.470806</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-112.223505</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">2020 N 75Th Ave, Phoenix, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85035.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/57">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Mesa Walmart Neighborhood Market</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.363017</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.654204</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">8335 E Guadalupe Rd, Mesa, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85212.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/58">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Phoenix Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.637216</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-112.098055</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">1825 W Bell Rd, Phoenix, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85023.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/59">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Glendale Walmart Neighborhood Market</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.539296</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-112.218862</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">7450 W Glendale Ave, Glendale, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85303.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/60">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Glendale Walmart Neighborhood Market</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.5802237</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-112.2019234</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">6645 W Peoria Ave, Glendale, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85302.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/61">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Glendale Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.51025</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-112.267293</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">5010 N 95Th Ave, Glendale, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85305.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/62">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Peoria Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.5784583</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-112.2303209</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">7975 W Peoria Ave, Peoria, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85345.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/63">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Mesa Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.38506</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.599933</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">1606 S Signal Butte Rd, Mesa, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85209.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/64">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Glendale Walmart Neighborhood Market</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.656074</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-112.150364</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">4230 W Union Hills Dr, Glendale, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85308.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/65">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Glendale Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.636517</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-112.184744</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">5845 W Bell Rd, Glendale, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85308.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/66">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Peoria Walmart Neighborhood Market</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.609159</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-112.21834</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">7421 West Thunderbird Road, Peoria, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85381.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/67">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Apache Junction Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.413821</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.5753437</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">2555 W Apache Trl, Apache Junction, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85120.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/68">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Queen Creek Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.251461</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.629508</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">21055 E Rittenhouse Rd, Queen Creek, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85142.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/69">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Phoenix Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.7083498</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-112.1129733</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">2501 W Happy Valley Rd Ste 34, Phoenix, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85085.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/70">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Glendale Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.65067</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-112.234138</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">18551 N 83Rd Ave, Glendale, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85308.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/71">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Avondale Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.459141</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-112.3381</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">13055 W Rancho Santa Fe Blvd, Avondale, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85392.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/72">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Goodyear Walmart Neighborhood Market</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.4871959</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-112.3644107</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">14200 W Indian School Rd, Goodyear, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85395.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/73">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Glendale Walmart Neighborhood Market</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.713791</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-112.201314</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">6550 West Happy Valley Rd, Glendale, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85310.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/74">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Cave Creek Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.796641</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.962216</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">34399 N Cave Creek Rd, Cave Creek, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85331.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/75">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Peoria Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.680298</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-112.276167</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">21655 N Lake Pleasant Pkwy, Peoria, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85382.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/76">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">El Mirage Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.610608</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-112.33649</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">12900 W Thunderbird Rd, El Mirage, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85335.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/77">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Goodyear Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.459558</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-112.395288</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">1100 N Estrella Pkwy, Goodyear, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85338.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/78">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">San Tan Valley Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.176395</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.584612</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">1725 W Hunt Hwy, San Tan Valley, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85143.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/79">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Maricopa Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.039071</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-112.014193</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">41650 W Maricopa Casa Grande H, Maricopa, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85138.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/80">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Surprise Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.642779</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-112.358141</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">13770 W Bell Rd, Surprise, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85374.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/81">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Surprise Walmart Neighborhood Market</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.622677</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-112.392434</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">15431 W Greenway Rd, Surprise, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85374.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/82">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Surprise Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.612439</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-112.420708</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">14111 N Prasada Gateway Ave, Surprise, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85388.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/83">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Anthem Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.869614</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-112.154941</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">4435 W Anthem Way, Anthem, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85086.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/84">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Buckeye Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.436922</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-112.560303</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">1060 S Watson Rd, Buckeye, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85326.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/85">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Coolidge Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">33.000049</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.520207</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">1695 N Arizona Blvd, Coolidge, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85128.0</hasZip>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/86">
+	<rdf:type rdf:resource="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#Location"/>
+	<hasLocation xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#">Casa Grande Walmart Supercenter</hasLocation>
+	<hasLatitide xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">32.877207</hasLatitide>
+	<hasLongitude xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">-111.712266</hasLongitude>
+	<hasAddress xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">1741 E Florence Blvd, Casa Grande, AZ</hasAddress>
+	<hasZip xmlns="http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#">85122.0</hasZip>
+</rdf:Description>
+
+</rdf:RDF>
