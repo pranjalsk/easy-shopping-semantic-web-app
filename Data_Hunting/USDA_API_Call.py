@@ -1,11 +1,10 @@
 
-#The code below extracts the Nutrients using USDA API based on the food_groups ID and the Nutrients ID.
+#Extract nutrient information from USDA
 
 import urllib2
 import json
 import csv
 
-apiKey = 'pblpHteeO6G9DOFARnTXB6kxEQdCmeHVlJcc6MXB'
 
 nutrients = [203, 204, 205, 208, 255, 269, 301]
 
@@ -16,7 +15,7 @@ for nutr in nutrients:
 	nurture += 'nutrients=' + str(nutr) + '&'
 
 for key in food_groups.keys():
-	url = 'http://api.nal.usda.gov/ndb/nutrients?format=json&api_key='+apiKey+'&'+nurture+'fg='+key+'&max=1500'
+	url = 'http://api.nal.usda.gov/ndb/nutrients?format=json&api_key='+'pblpHteeO6G9DOFARnTXB6kxEQdCmeHVlJcc6MXB'+'&'+nurture+'fg='+key+'&max=1500'
 	json_obj = urllib2.urlopen(url)
 	data_dict = json.load(json_obj)
 	
@@ -42,6 +41,6 @@ for key in food_groups.keys():
 		ener =str(food['nutrients'][5]['gm']) +' '+ food['nutrients'][5]['unit']
 		watr =str(food['nutrients'][6]['gm']) +' '+ food['nutrients'][6]['unit']
 		csvwriter.writerow([Food_nm, Food_wt, Food_msr, Prot, sugr, fat, carb, calc, ener, watr])
-	print 'Done successfully'
+	print 'CSV Loaded'
 	
 food_nutrients.close()
