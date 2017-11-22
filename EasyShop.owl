@@ -6,6 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop">
+    <Prefix name="" IRI="http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -27,9 +28,6 @@
         <Class IRI="#Bakery"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Beer_&amp;_Wine"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Literal"/>
     </Declaration>
     <Declaration>
@@ -39,10 +37,13 @@
         <ObjectProperty IRI="#hasNutrientValue"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasPrice"/>
+        <ObjectProperty IRI="#hasLocation"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasLocation"/>
+        <Class IRI="#BeerWine"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPrice"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasItems"/>
@@ -63,13 +64,13 @@
         <ObjectProperty IRI="#hasLattitude"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Meat_&amp;_Seafood"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Grocery"/>
     </Declaration>
     <Declaration>
         <Class IRI="#FoodCity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Meat_&amp;_Seafood"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Fats"/>
@@ -110,6 +111,17 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Bakery"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasItems"/>
+            <Class IRI="#Item"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BeerWine"/>
+        <Class IRI="#Grocery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BeerWine"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasItems"/>
             <Class IRI="#Item"/>
@@ -293,17 +305,6 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Beer_&amp;_Wine"/>
-        <Class IRI="#Grocery"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Beer_&amp;_Wine"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasItems"/>
-            <Class IRI="#Item"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Meat_&amp;_Seafood"/>
         <Class IRI="#Grocery"/>
     </SubClassOf>
@@ -316,11 +317,11 @@
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="#Bakery"/>
+        <Class IRI="#BeerWine"/>
         <Class IRI="#Dairy"/>
         <Class IRI="#Deli"/>
         <Class IRI="#Fruits"/>
         <Class IRI="#Vegetables"/>
-        <Class IRI="#Beer_&amp;_Wine"/>
         <Class IRI="#Meat_&amp;_Seafood"/>
     </DisjointClasses>
     <DisjointClasses>
