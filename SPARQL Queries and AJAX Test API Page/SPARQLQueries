@@ -1,0 +1,146 @@
+-- Select distinct store name
+
+PREFIX store:  <http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#>
+SELECT DISTINCT ?storeName 
+FROM <http://localhost:3030/easyshop/data/Store>
+WHERE {
+    ?person store:hasStore ?storeName .
+}
+
+=========================================================================================
+
+-- Get all Nutrients Informarion --
+
+PREFIX nutrient:  <http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#>
+SELECT ?types ?proteins ?calories ?fats ?carbohydrates
+WHERE {
+  GRAPH <http://localhost:3030/easyshop/data/Nutrition>
+  {
+    ?person nutrient:hasType ?types ;
+       	    nutrient:hasProteins ?proteins ;
+            nutrient:hasCalories ?calories ;
+            nutrient:hasFats ?fats ;       
+            nutrient:hasCarbohydrates ?carbohydrates .
+  }
+}
+
+OR
+
+PREFIX nutrient:  <http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#>
+SELECT ?types ?proteins ?calories ?fats ?carbohydrates
+FROM <http://localhost:3030/easyshop/data/Nutrition>
+WHERE {
+    ?person nutrient:hasType ?types ;
+       	    nutrient:hasProteins ?proteins ;
+            nutrient:hasCalories ?calories ;
+            nutrient:hasFats ?fats ;       
+            nutrient:hasCarbohydrates ?carbohydrates .
+}
+
+=========================================================================================
+
+-- Get all Location Informarion --
+
+PREFIX location:  <http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#>
+PREFIX locationName:  <http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#>
+SELECT ?location ?latitude ?longitude ?address ?zip 
+FROM <http://localhost:3030/easyshop/data/Location>
+WHERE {
+    ?person locationName:hasLocation ?location ;
+    		location:hasLatitide ?latitude ;
+       	    location:hasLongitude ?longitude ;
+            location:hasAddress ?address ;
+            location:hasZip ?zip .
+}
+
+=========================================================================================
+
+-- Get all the products (Walmart as well as Safeway)
+
+PREFIX store:  <http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#>
+SELECT ?storeName ?category ?productName ?productPrice
+FROM <http://localhost:3030/easyshop/data/Store>
+WHERE {
+    ?person store:hasStore ?storeName ;
+    		store:hasCategory ?category ;
+       	    store:hasName ?productName ;
+            store:hasPrice ?productPrice .
+}
+
+=========================================================================================
+
+-- Get all Safeway products
+
+PREFIX store:  <http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#>
+SELECT ?storeName ?category ?productName ?productPrice
+FROM <http://localhost:3030/easyshop/data/Store>
+WHERE {
+    ?person store:hasStore ?storeName ;
+    		store:hasCategory ?category ;
+       	    store:hasName ?productName ;
+            store:hasPrice ?productPrice .
+		    FILTER (?storeName = "Safeway").
+}
+
+=========================================================================================
+
+-- Get all Walmart products
+
+PREFIX store:  <http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#>
+SELECT ?storeName ?category ?productName ?productPrice
+FROM <http://localhost:3030/easyshop/data/Store>
+WHERE {
+    ?person store:hasStore ?storeName ;
+    		store:hasCategory ?category ;
+       	    store:hasName ?productName ;
+            store:hasPrice ?productPrice .
+		    FILTER (?storeName = "Walmart").
+}
+
+=========================================================================================
+
+-- Select product category for Walmart
+
+
+PREFIX store:  <http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#>
+SELECT DISTINCT ?category ?storeName
+FROM <http://localhost:3030/easyshop/data/Store>
+WHERE {
+    ?person store:hasCategory ?category ;
+            store:hasStore ?storeName ;
+       	    FILTER (?storeName = "Walmart").
+}
+
+=========================================================================================
+
+-- Select product category for Safeway
+
+PREFIX store:  <http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#>
+SELECT DISTINCT ?category ?storeName
+FROM <http://localhost:3030/easyshop/data/Store>
+WHERE {
+    ?person store:hasCategory ?category ;
+            store:hasStore ?storeName ;
+       	    FILTER (?storeName = "Safeway").
+}
+
+=========================================================================================
+
+-- Select the product information from the category and store (Change the values accordingly)
+
+PREFIX store:  <http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#>
+SELECT ?storeName ?category ?productName ?productPrice
+FROM <http://localhost:3030/easyshop/data/Store>
+WHERE {
+    ?person store:hasStore ?storeName ;
+    		store:hasCategory ?category ;
+       	    store:hasName ?productName ;
+            store:hasPrice ?productPrice .
+		    FILTER (?storeName = "Safeway")
+  		    FILTER (?category = "Alcohol").
+}
+
+=========================================================================================
+
+
+

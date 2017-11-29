@@ -1,0 +1,28 @@
+<html>
+<head>
+	<title>Fuzeki API Test</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$( document ).ready(function() {
+    $.ajax({
+		  url: "http://localhost:3030/easyshop/",
+		  type: "GET",
+		  data: { 
+		    query: "PREFIX store: <http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#> SELECT ?storeName ?category ?productName ?productPrice FROM <http://localhost:3030/easyshop/data/Store> WHERE { ?person store:hasStore ?storeName ; store:hasCategory ?category ; store:hasName ?productName ; store:hasPrice ?productPrice . FILTER (?storeName = 'Safeway') FILTER (?category = 'Alcohol'). }"
+		  },
+		  success: function(response) {
+		    console.log(response);
+		  },
+		  error: function(xhr) {
+		    alert(xhr);
+		  }
+	});
+});
+</script>
+</head>
+
+<body>
+	
+</body>
+
+</html>
