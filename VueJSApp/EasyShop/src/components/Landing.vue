@@ -2,32 +2,32 @@
 <div>
 <nav>
 	<ul>
-		<li><a href="#">Home</a></li>
-		<li><a href="#">Product Nutrients Info</a></li>
-		<li><a href="#">Wallmart</a>
+		<li><router-link :to="{ name:'home'}">Home</router-link></li>
+		<li><router-link :to="{ name:'NutrientsInfo'}">Nutrients Information</router-link></li>
+		<li><a>Walmart</a>
 			<ul>
-				<li><a href="#">Locations</a></li>
-				<li><a href="#">Products</a>
+				<li><router-link :to="{ name:'walmartLocations'}">Locations</router-link></li>
+				<li><a>Products</a>
 					<ul>
-						<li><a href="#">Bakery</a></li>
-						<li><a href="#">Dairy</a></li>
-						<li><a href="#">Seafood and Meat</a></li>
-						<li><a href="#">Beer and Wine</a></li>
-						<li><a href="#">Fruits and Vegetable</a></li>
+						<li><router-link :to="{ name:'walmartProducts', params:{ catId:'1' }}">Bakery</router-link></li>
+						<li><router-link :to="{ name:'walmartProducts', params:{ catId:'2' }}">Dairy</router-link></li>
+						<li><router-link :to="{ name:'walmartProducts', params:{ catId:'3' }}">Seafood and Meat</router-link></li>
+						<li><router-link :to="{ name:'walmartProducts', params:{ catId:'4' }}">Beer and Wine</router-link></li>
+						<li><router-link :to="{ name:'walmartProducts', params:{ catId:'5' }}">Fruits and Vegetable</router-link></li>
 					</ul>
 				</li>
 			</ul>
 		</li>
-		<li><a href="#">Safeway</a>
+		<li><a>Safeway</a>
 			<ul>
-				<li><a href="#">Locations</a></li>
-				<li><a href="#">Products</a>
+				<li><router-link :to="{ name:'safewayLocations'}">Locations</router-link></li>
+				<li><a>Products</a>
 					<ul>
-						<li><a href="#">Bakery</a></li>
-						<li><a href="#">Dairy</a></li>
-						<li><a href="#">Seafood and Meat</a></li>
-						<li><a href="#">Beer and Wine</a></li>
-						<li><a href="#">Fruits and Vegetable</a></li>
+						<li><router-link :to="{ name:'safewayProducts', params:{ catId:'1' }}">Bakery</router-link></li>
+						<li><router-link :to="{ name:'safewayProducts', params:{ catId:'2' }}">Dairy</router-link></li>
+						<li><router-link :to="{ name:'safewayProducts', params:{ catId:'3' }}">Seafood and Meat</router-link></li>
+						<li><router-link :to="{ name:'safewayProducts', params:{ catId:'4' }}">Beer and Wine</router-link></li>
+						<li><router-link :to="{ name:'safewayProducts', params:{ catId:'5' }}">Fruits and Vegetable</router-link></li>
 					</ul>
 				</li>
 			</ul>
@@ -44,6 +44,14 @@ export default {};
 </script>
 
 <style>
+a { text-decoration: none; }
+a:visited{
+  color:#fff;
+	text-decoration:none;
+}
+a:hover {
+   text-decoration:none;
+}
 nav {
   text-align:center;
 	color: #fff;
@@ -83,7 +91,7 @@ nav ul li a {
 }
 
 nav ul li:hover {
-  background: #333333;
+  background: #0066cc;
 }
 
 

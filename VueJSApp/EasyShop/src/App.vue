@@ -23,6 +23,9 @@
                             <transition name="slide" mode="out-in">
                                 <router-view name="app-paginatedTable" :key="$route.fullPath"></router-view>   
                                 <router-view name="app-safewayTable" :key="$route.fullPath"></router-view>   
+                                <router-view name="app-safewayLocations" :key="$route.fullPath"></router-view>   
+                                <router-view name="app-walmartLocations" :key="$route.fullPath"></router-view>   
+                                <router-view name="app-NutrientsInfo" :key="$route.fullPath"></router-view>   
                             </transition>
                     </div>
                 </div> 
