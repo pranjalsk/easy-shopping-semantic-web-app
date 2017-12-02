@@ -46,8 +46,9 @@ export default {};
 <style>
 nav {
   text-align:center;
+	color: #fff;
   width: 100%;
-  background: #bebebe;
+  background: #00802b;
   padding: 0;
   margin: 0;
   height: 60px;
@@ -55,7 +56,8 @@ nav {
 }
 
 nav ul {
-  background: #bebebe;
+  background: #00802b;
+	color: #fff;
   list-style:none;
   padding:0 20px;
   margin: 0;
@@ -70,7 +72,8 @@ nav ul li {
 
 
 nav ul li a {
-  color:#333333;
+  color:#00802b;
+	color: #fff;
   display:block;
   padding:0px 40px;
   text-decoration:none;
@@ -93,7 +96,7 @@ nav ul li:hover > ul {
 }
 
 nav ul ul {
-  background: #BEBEBE;
+  background: #00802b;
   padding:0;
   text-align: center;
   display:none;
