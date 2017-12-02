@@ -9,9 +9,9 @@
     </thead>
     <tbody>
       <tr v-for="product in limitBy(data,rowsPerPage,startRow)">
-        <td>{{ product.name }}</td>
-        <td>{{ product.catagory }}</td>
-        <td>{{ product.price }}</td>
+        <td>{{ JSON.stringify(product.productName) }}</td>
+        <td>{{ JSON.stringify(product.productCatagory) }}</td>
+        <td>{{ JSON.stringify(product.productPrice) }}</td>
       </tr>
     </tbody>
   </table>

@@ -7,12 +7,14 @@ import walmartLocations from './components/walmartLocations.vue';
 import NutrientsInfo from './components/NutrientsInfo.vue';
 import AnimatedBox from './components/AnimatedBox.vue';
 import Landing from './components/Landing.vue';
+import VueResource from 'vue-resource'
 import Grid from './components/Grid.vue';
 import VueRouter from 'vue-router';
 
 import { routes } from './routes';
 
 Vue.use(VueRouter);
+Vue.use(VueResource);
 
 Vue.component('app-landing', Landing );
 Vue.component('app-paginatedTable', PaginatedTable );
