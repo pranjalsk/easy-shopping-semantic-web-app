@@ -3,15 +3,19 @@
   <div style="height:80%; overflow-y:auto;">
   <table class="table table-striped">
     <thead class="h4">
-      <th>Product Name</th>
-      <th>Product Catagory</th>
-      <th>Product Price</th>
+      <th>Product Type</th>
+      <th>Proteins</th>
+      <th>Calories</th>
+      <th>Fats</th>
+      <th>Carbohydrates</th>
     </thead>
     <tbody>
       <tr v-for="product in limitBy(data,rowsPerPage,startRow)">
         <td>{{ JSON.stringify(product.productName) }}</td>
-        <td>{{ JSON.stringify(product.productCatagory) }}</td>
-        <td>{{ JSON.stringify(product.productPrice) }}</td>
+        <td>{{ JSON.stringify(product.proteins) }}</td>
+        <td>{{ JSON.stringify(product.calories) }}</td>
+        <td>{{ JSON.stringify(product.fats) }}</td>
+        <td>{{ JSON.stringify(product.carbohydrates) }}</td>
       </tr>
     </tbody>
   </table>

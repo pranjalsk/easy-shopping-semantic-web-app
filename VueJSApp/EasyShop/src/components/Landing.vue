@@ -4,10 +4,8 @@
 	<ul>
 		<li><router-link :to="{ name:'home'}">Home</router-link></li>
 		<li><router-link :to="{ name:'NutrientsInfo'}">Nutrients Information</router-link></li>
-		<li><a>Walmart</a>
-			<ul>
-				<li><router-link :to="{ name:'walmartLocations'}">Locations</router-link></li>
-				<li><a>Products</a>
+		<li><router-link :to="{ name:'walmartLocations'}">Store Locations</router-link></li>
+		<li><a>Walmart</a>		
 					<ul>
 						<li><router-link :to="{ name:'walmartProducts', params:{ catId:'1' }}">Bakery</router-link></li>
 						<li><router-link :to="{ name:'walmartProducts', params:{ catId:'2' }}">Dairy</router-link></li>
@@ -15,21 +13,14 @@
 						<li><router-link :to="{ name:'walmartProducts', params:{ catId:'4' }}">Beer and Wine</router-link></li>
 						<li><router-link :to="{ name:'walmartProducts', params:{ catId:'5' }}">Fruits and Vegetable</router-link></li>
 					</ul>
-				</li>
-			</ul>
 		</li>
 		<li><a>Safeway</a>
 			<ul>
-				<li><router-link :to="{ name:'safewayLocations'}">Locations</router-link></li>
-				<li><a>Products</a>
-					<ul>
 						<li><router-link :to="{ name:'safewayProducts', params:{ catId:'1' }}">Bakery</router-link></li>
 						<li><router-link :to="{ name:'safewayProducts', params:{ catId:'2' }}">Dairy</router-link></li>
 						<li><router-link :to="{ name:'safewayProducts', params:{ catId:'3' }}">Seafood and Meat</router-link></li>
 						<li><router-link :to="{ name:'safewayProducts', params:{ catId:'4' }}">Beer and Wine</router-link></li>
 						<li><router-link :to="{ name:'safewayProducts', params:{ catId:'5' }}">Fruits and Vegetable</router-link></li>
-					</ul>
-				</li>
 			</ul>
 		</li>
 	</ul>

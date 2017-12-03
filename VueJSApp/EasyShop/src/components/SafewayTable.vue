@@ -1,6 +1,5 @@
 <template>
   <div>
-    <span>Catagory id is : {{$route.params.catId}}</span>
     <grid :data="products "  :move-pages="movePages" :start-row="startRow" :rows-per-page="rowsPerPage">
     </grid>
   </div>
@@ -121,8 +120,7 @@ export default {
   methods: {
     movePages: function(amount) {
       let newStartRow = this.startRow + amount * this.rowsPerPage;
-      console.log(newStartRow);
-      if (newStartRow >= 0 && newStartRow < this.papers.length) {
+      if (newStartRow >= 0 && newStartRow < this.products.length) {
         this.startRow = newStartRow;
       }
     },

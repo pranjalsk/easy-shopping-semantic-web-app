@@ -9,18 +9,8 @@
 
 <script>
 
-import axios from "axios";
-
 function getPapersFromId(vm){
-    let catId = vm.$route.params.catId
-    axios
-    .get(`http://localhost:8081/domains/`+catId)
-    .then(response => {
-      vm.products = response.data.products;
-    })
-    .catch(err => {
-      vm.errors.push(err);
-    });
+
 }
 
 

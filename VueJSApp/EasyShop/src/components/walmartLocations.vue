@@ -1,26 +1,51 @@
 <template>
   <div>
-    <span>Catagory id is : Walmart</span>
-    <grid :data="products "  :move-pages="movePages" :start-row="startRow" :rows-per-page="rowsPerPage">
-    </grid>
+    <LocationsGrid :data="products "  :move-pages="movePages" :start-row="startRow" :rows-per-page="rowsPerPage">
+    </LocationsGrid>
   </div>
 
 </template>
 
 <script>
 
-import axios from "axios";
+function getProductsFromId(vm) {
 
-function getPapersFromId(vm){
-    let catId = vm.$route.params.catId
-    axios
-    .get(`http://localhost:8081/domains/`+catId)
-    .then(response => {
-      vm.products = response.data.products;
-    })
-    .catch(err => {
-      vm.errors.push(err);
-    });
+  var sparqlQuery =`PREFIX location:  <http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#>
+                    PREFIX locationName:  <http://www.semanticweb.org/tusharpandit/ontologies/2017/9/EasyShop#>
+                    SELECT ?location ?latitude ?longitude ?address ?zip 
+                    FROM <http://localhost:3030/easyshop/data/Location>
+                    WHERE {
+                        ?person locationName:hasLocation ?location ;
+                            location:hasLatitide ?latitude ;
+                                location:hasLongitude ?longitude ;
+                                location:hasAddress ?address ;
+                                location:hasZip ?zip .
+                    }`;
+
+  vm.products = [];
+  $.ajax({
+    url: "http://localhost:3030/easyshop/",
+    type: "GET",
+    data: {
+      query: sparqlQuery    
+    },
+    success: function(response) {
+      response.results.bindings.forEach(element => {
+        let tempObj = {};
+
+        tempObj.address = element.address.value;
+        tempObj.zip = element.zip.value;
+        tempObj.type = element.location.value;
+        tempObj.latitude = element.latitude.value;
+        tempObj.longitude = element.longitude.value;
+        vm.products.push(tempObj);
+      });
+
+    },
+    error: function(xhr) {
+      alert(xhr);
+    }
+  });
 }
 
 
@@ -29,7 +54,7 @@ export default {
   data() {
     return {    
       startRow: 0,
-      rowsPerPage: 5,
+      rowsPerPage: 15,
       products: []
     };
   },
@@ -39,8 +64,7 @@ export default {
   methods: {
     movePages: function(amount) {
       let newStartRow = this.startRow + amount * this.rowsPerPage;
-      console.log(newStartRow);
-      if (newStartRow >= 0 && newStartRow < this.papers.length) {
+      if (newStartRow >= 0 && newStartRow < this.products.length) {
         this.startRow = newStartRow;
       }
     },

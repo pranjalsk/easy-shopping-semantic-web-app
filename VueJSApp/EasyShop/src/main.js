@@ -9,6 +9,8 @@ import AnimatedBox from './components/AnimatedBox.vue';
 import Landing from './components/Landing.vue';
 import VueResource from 'vue-resource'
 import Grid from './components/Grid.vue';
+import NutrientsGrid from './components/NutrientsGrid.vue';
+import LocationsGrid from './components/LocationsGrid.vue';
 import VueRouter from 'vue-router';
 
 import { routes } from './routes';
@@ -23,6 +25,8 @@ Vue.component('app-AnimatedBox', AnimatedBox );
 Vue.component('app-SafewayLocations', SafewayLocations );
 Vue.component('app-walmartLocations', walmartLocations );
 Vue.component('app-NutrientsInfo', NutrientsInfo );
+Vue.component('NutrientsGrid', NutrientsGrid );
+Vue.component('LocationsGrid', LocationsGrid );
 Vue.component('grid', Grid );
 
 const router = new VueRouter({
