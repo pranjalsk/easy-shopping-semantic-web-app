@@ -139,7 +139,52 @@ WHERE {
 		    FILTER (?storeName = "Safeway")
   		    FILTER (?category = "Alcohol").
 }
+PREFIX store:  <http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#>
+SELECT ?storeName ?category ?productName ?productPrice
+FROM <http://localhost:3030/easyshop/data/Store>
+WHERE {
+    ?person store:hasStore ?storeName ;
+    		store:hasCategory ?category ;
+       	    store:hasName ?productName ;
+            store:hasPrice ?productPrice .
+		    FILTER (?storeName = "Safeway")
+  		    FILTER (?category = "Bakery").
+}
+PREFIX store:  <http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#>
+SELECT ?storeName ?category ?productName ?productPrice
+FROM <http://localhost:3030/easyshop/data/Store>
+WHERE {
+    ?person store:hasStore ?storeName ;
+    		store:hasCategory ?category ;
+       	    store:hasName ?productName ;
+            store:hasPrice ?productPrice .
+		    FILTER (?storeName = "Safeway")
+  		    FILTER (?category = "Dairy").
+}
+PREFIX store:  <http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#>
+SELECT ?storeName ?category ?productName ?productPrice
+FROM <http://localhost:3030/easyshop/data/Store>
+WHERE {
+    ?person store:hasStore ?storeName ;
+    		store:hasCategory ?category ;
+       	    store:hasName ?productName ;
+            store:hasPrice ?productPrice .
+		    FILTER (?storeName = "Safeway")
+  		    FILTER (?category = "Fruits").
+}
+PREFIX store:  <http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#>
+SELECT ?storeName ?category ?productName ?productPrice
+FROM <http://localhost:3030/easyshop/data/Store>
+WHERE {
+    ?person store:hasStore ?storeName ;
+    		store:hasCategory ?category ;
+       	    store:hasName ?productName ;
+            store:hasPrice ?productPrice .
+		    FILTER (?storeName = "Safeway")
+  		    FILTER (?category = "Meat").
+}
 
+PREFIX store:  <http://www.semanticweb.org/tusharpandit/ontologies/2017/10/EasyShop#>SELECT ?storeName ?category ?productName ?productPriceFROM <http://localhost:3030/easyshop/data/Store>WHERE {?person store:hasStore ?storeName ;store:hasCategory ?category ;store:hasName ?productName ;store:hasPrice ?productPrice .FILTER (?storeName = "Safeway")FILTER (?category = "Alcohol")}
 =========================================================================================
 
 
