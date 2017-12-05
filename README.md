@@ -9,7 +9,7 @@
 
 #### Technology Stack:
 1. Data scraping - Python, Selenium Web Driver
-2. Web Development - JavaScript, NodeJS, Express, Bootstrap
+2. Web Development - JavaScript, Vue.js, Bootstrap
 
 #### Application installation steps:
 
